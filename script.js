@@ -1,9 +1,13 @@
-res = document.getElementById('display')
-
 function inserir(n) {
-    res.innerHTML += n
+    document.getElementById('resultado').innerHTML += n
 }
 
-function limpar() {
-    res.innerHTML = ''
+function calcular() {
+    var resultado = document.getElementById('resultado').innerHTML
+
+    if (resultado) {
+        document.getElementById('resultado').innerHTML = eval(resultado)
+    } else {
+        alert('Nada para calcular')
+    }
 }

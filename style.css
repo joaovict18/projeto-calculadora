@@ -27,26 +27,29 @@ div#container {
 h1 {
     font-weight: normal;
     text-align: center;
+    font-size: 20px;
 }
 
 button {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border: none;
     border-radius: 5px;
     background-color: #2F3332;
     color: white;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
 }
 
-div#display {
-    width: 153.5px;
-    height: 50px;
-    border: none;
-    border-radius: 5px;
-    background-color: #2F3332;
+p#resultado {
+    width: 127px;
+    height: 30px;
     text-align: right;
-    color: white;
-    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
 }
 
 button:hover {
